@@ -41,4 +41,3 @@ public class City {
         return Objects.hash(cityName, provinceName);
     }
 }
-
