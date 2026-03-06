@@ -31,11 +31,11 @@ public class CustomList {
      * Delete a city from the list
      * @param city The city to delete
      */
-    public void deleteCity(City city) {
+/**    public void deleteCity(City city) {
         if (cities.contains(city)) {
             cities.remove(city);
         }
-    }
+    }*/
 
     /**
      * Count the number of cities in the list
