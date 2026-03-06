@@ -32,8 +32,8 @@ public class City {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         City city = (City) o;
-        return Objects.equals(cityName, city.cityName) &&
-                Objects.equals(provinceName, city.provinceName);
+        return Objects.equals(cityName, city.cityName) && 
+               Objects.equals(provinceName, city.provinceName);
     }
 
     @Override
@@ -41,3 +41,4 @@ public class City {
         return Objects.hash(cityName, provinceName);
     }
 }
+
